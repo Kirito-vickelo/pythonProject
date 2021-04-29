@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Phythagore.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Phythagore.py</font>
+</center></td></tr></table>
+<pre><span class="s0">from </span><span class="s1">math </span><span class="s0">import </span><span class="s1">sqrt</span>
+<span class="s1">print(</span><span class="s2">&quot;Bonjour ces un programe permet de calculer selon le théorème de Pythagore (trouver l'hypoténuse).&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;On notera les cotés du triangle rectangle AB,BC,CA et AB est l'hypoténuse.&quot;</span><span class="s1">)</span>
+<span class="s1">unité=input(</span><span class="s2">&quot;Entrer l'abréviation de votre unité (en minuscule) pour les côtés du triangle mais ne pas les ré-écrire quand vous rentrez les valeurs des côtés : &quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;information: la virgule s'ecrit avec un point&quot;</span><span class="s1">)</span>
+<span class="s1">BC=float(input(</span><span class="s2">&quot;Entrer la Valeur BC:&quot;</span><span class="s1">))</span>
+<span class="s1">CA=float(input(</span><span class="s2">&quot;Entrer la Valeur CA:&quot;</span><span class="s1">))</span>
+<span class="s1">print(</span><span class="s2">&quot;AB²= BC²+ CA²&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;AB²=&quot;</span><span class="s0">,</span><span class="s1">BC</span><span class="s0">,</span><span class="s2">&quot;²&quot;</span><span class="s0">,</span><span class="s2">&quot;+&quot;</span><span class="s0">,</span><span class="s1">CA</span><span class="s0">,</span><span class="s2">&quot;²&quot;</span><span class="s1">)</span>
+<span class="s1">BC=BC*BC</span>
+<span class="s1">CA=CA*CA</span>
+<span class="s3">#Les valeurs BC et CA ont été mis au carrée</span>
+<span class="s1">print(</span><span class="s2">&quot;AB²=&quot;</span><span class="s0">,</span><span class="s1">BC</span><span class="s0">,</span><span class="s2">&quot;+&quot;</span><span class="s0">,</span><span class="s1">CA)</span>
+<span class="s1">AB=BC+CA</span>
+<span class="s1">print(AB</span><span class="s0">,</span><span class="s2">&quot;²&quot;</span><span class="s0">,</span><span class="s2">&quot;=&quot;</span><span class="s0">,</span><span class="s1">BC</span><span class="s0">,</span><span class="s2">&quot;+&quot;</span><span class="s0">,</span><span class="s1">CA)</span>
+<span class="s1">print(</span><span class="s2">&quot;√AB²=&quot;</span><span class="s0">,</span><span class="s1">sqrt(AB)</span><span class="s0">,</span><span class="s1">unité)</span></pre>
+</body>
+</html>
